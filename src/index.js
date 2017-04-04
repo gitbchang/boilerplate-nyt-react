@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App.js';
+// eslint-disable-next-line 
+import App from './components/App';
+// eslint-disable-next-line 
+import topBot from './components/top-bot'
 import './css/index.css';
 
-ReactDOM.render(
-  <App />,
+ReactDOM.render( 
+    <topBot />,
   document.getElementById('root')
 );
