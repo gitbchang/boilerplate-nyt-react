@@ -2,11 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // eslint-disable-next-line 
 import App from './components/App';
-// eslint-disable-next-line 
-import topBot from './components/top-bot'
 import './css/index.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render( 
-    <topBot />,
+    <App />,
   document.getElementById('root')
 );
