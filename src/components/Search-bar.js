@@ -28,7 +28,7 @@ checkArticleSearch = () => {
   }
 
   searchSubmit = () => {
-
+    
   }
 
     render(){
